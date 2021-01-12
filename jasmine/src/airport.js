@@ -5,6 +5,7 @@ class Airport {
   };
 
   land(plane) {
+    plane.land()
     this.plane_store.push(plane)
   }
 

@@ -16,4 +16,12 @@ describe('Plane', function() {
       expect(plane.isLanded).toBe(false)
     });
   });
+
+  describe('#land', function() {
+    it('should land itself', function() {
+      plane.take_off();
+      plane.land();
+      expect(plane.isLanded).toBe(true)
+    });
+  });
 });

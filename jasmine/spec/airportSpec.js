@@ -8,6 +8,7 @@ describe('Airport', function () {
   it('should instruct a plane to depart', function() {
     airport = new Airport();
     airport.land('plane');
+    airport.land('helicopter');
     expect(airport.take_off('plane')).toBe('plane')
   });
 });

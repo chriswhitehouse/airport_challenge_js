@@ -6,7 +6,6 @@ class Airport {
 
   land(plane) {
     this.plane_store.push(plane)
-    return plane
   }
 
   take_off(plane) {

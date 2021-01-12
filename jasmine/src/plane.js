@@ -8,4 +8,8 @@ class Plane {
     this.isLanded = false;
   }
 
+  land() {
+    this.isLanded = true;
+  }
+
 }

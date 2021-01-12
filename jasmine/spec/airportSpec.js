@@ -12,7 +12,6 @@ describe('Airport', function () {
         return true;
       }
     };
-
   });
 
   describe('land', function() {
@@ -48,5 +47,4 @@ describe('Airport', function () {
       expect(airport.plane_store).not.toContain(plane)
     });
   });
-
 });
